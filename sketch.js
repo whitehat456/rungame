@@ -30,7 +30,7 @@ function setup(){
 function draw(){
     background("orange");
     text (mouseX+"  "+mouseY,-400,50)
-   
+   console.log("Checking github comands")
     player1.characteristics()
     platformA.display()
     platformB.display()
